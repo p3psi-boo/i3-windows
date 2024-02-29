@@ -1,3 +1,4 @@
+#Requires AutoHotkey v1.1.33+
 ;see https://autohotkey.com/board/topic/3248-stuck-ctrl-key/ if issues with keys sticking
 #SingleInstance Force ; The script will Reload if launched while already running
 #NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases

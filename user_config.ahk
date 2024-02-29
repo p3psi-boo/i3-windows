@@ -44,10 +44,10 @@
 
 #q::quitWindow()
 
-;#f::toggleMaximize()
+#f::toggleMaximize()
 
-; WSL -- create shortcut by dragging from start menu (can't be from a search result)
-#Enter::Run, C:\window-mover.git\Debian GNU-Linux
+; terminal
+#Enter::Run, wt.exe
 
-; PowerShell
-#+Enter::Run, powershell
+; launch chatgpt-next-web
+#a::Run, "C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe"  --profile-directory=Default --app-id=fmlkhldamjafgjodahfelkheeglcijpa --app-url=http://192.168.1.213:21481/#/ --app-launch-source=4
